@@ -19,7 +19,7 @@ const ServiceContent = () => {
             slogan: "Get a beautiful website that wins customers.",
             head: "Design That Delivers Lasting Impressions",
             desc: "Your website is more than just an online presence—it’s your brand’s digital storefront. Our web design services are focused on creating beautiful, mobile-responsive websites that provide seamless user experiences. We ensure that each website we design is optimized for speed, visuals, and functionality, allowing your visitors to enjoy a smooth browsing experience that reflects your brand’s unique identity. With a focus on clean aesthetics and easy navigation, we turn your website into a powerful tool for engagement and retention.",
-            link: "/web-design",
+            link: "/services/web-design",
             img: Webimg,
         },
         {
@@ -27,7 +27,7 @@ const ServiceContent = () => {
             slogan: "Be seen, rank higher, and attract more customers.",
             head: "Rank Higher, Reach Farther",
             desc: "Standing out online means being seen by the right audience, at the right time. Our SEO services elevate your brand by helping you rank higher on search engines, driving organic traffic to your site. From in-depth keyword research to on-page optimization and technical enhancements, we cover all aspects of SEO to ensure your website consistently reaches top results. Let us help you increase visibility, attract qualified leads, and stay ahead in the competitive digital landscape.",
-            link: "/search-engine-optimization",
+            link: "/services/search-engine-optimization",
             img: Seoimg,
         },
         {
@@ -35,7 +35,7 @@ const ServiceContent = () => {
             slogan: "Drive instant traffic that converts into loyal customers.",
             head: "Targeted Ads, Immediate Results",
             desc: "Get your message in front of the right audience, right when they’re ready to act. Our PPC advertising services drive instant traffic through well-crafted, high-conversion campaigns on platforms like Google and Bing. By using strategic ad copy, precise targeting, and data-driven bidding, we maximize the impact of every ad dollar. Our tailored approach to PPC ensures you get measurable results, from increased web traffic to higher conversion rates.",
-            link: "/pay-per-click-advertising",
+            link: "/services/pay-per-click-advertising",
             img: SMimg,
         },
         {
@@ -43,7 +43,7 @@ const ServiceContent = () => {
             slogan: "Stay connected with messages that inspire action.",
             head: "Stay Connected, Build Loyalty",
             desc: "Connect with your customers directly through personalized Email and SMS marketing campaigns that keep them engaged. We design and manage campaigns that bring value to your audience, whether through product updates, exclusive offers, or brand stories. By combining timing, personalization, and relevant content, our approach strengthens customer loyalty and encourages repeat business—making sure your brand stays top-of-mind.",
-            link: "/email-and-sms-marketing",
+            link: "/services/email-and-sms-marketing",
             img: EMimg,
         },
     ];
@@ -56,7 +56,7 @@ const ServiceContent = () => {
                         {/* Conditional rendering for even and odd indexes */}
                         {index % 2 === 0 ? (
                             <>
-                                <div className="w-full md:w-1/2">
+                                <div className="w-full md:w-1/2 order-1 md:order-none">
                                     <div className="flex items-center gap-3 pr-2">
                                         <h2>{item.icon}</h2>
                                         <Link to={item.link}>

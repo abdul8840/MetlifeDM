@@ -51,10 +51,10 @@ const SMContent = () => {
                         {/* Conditional rendering for even and odd indexes */}
                         {index % 2 === 0 ? (
                             <>
-                                <div className="w-full md:w-1/2">
+                                <div className="w-full md:w-1/2 order-1 md:order-none">
                                     <div className="flex items-center gap-3 pr-2">
                                         <h2>{item.icon}</h2>
-                                            <h3 className='text-purple-600 font-semibold hover:underline'>{item.slogan}</h3>
+                                            <h3 className='text-purple-600 font-semibold'>{item.slogan}</h3>
                                     </div>
                                     <h2 className='text-2xl font-bold mb-5'>{item.head}</h2>
                                     <p>{item.desc}</p>
@@ -71,7 +71,7 @@ const SMContent = () => {
                                 <div className="w-full md:w-1/2">
                                     <div className="flex items-center gap-3 pr-2">
                                         <h2>{item.icon}</h2>
-                                            <h3 className='text-purple-600 font-semibold hover:underline'>{item.slogan}</h3>
+                                            <h3 className='text-purple-600 font-semibold'>{item.slogan}</h3>
                                     </div>
                                     <h2 className='text-2xl font-bold mb-5'>{item.head}</h2>
                                     <p>{item.desc}</p>
