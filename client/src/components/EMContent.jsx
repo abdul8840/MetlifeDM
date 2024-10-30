@@ -47,7 +47,7 @@ const EMContent = () => {
             {/* <h2 className='text-center text-white text-4xl font-bold mt-5 mb-10'>What We Offers</h2> */}
             <div className="flex flex-col gap-12">
                 {Ddata.map((item, index) => (
-                    <div key={index} className="flex justify-between items-center flex-wrap">
+                    <div key={index} className="flex justify-between items-center gap-3 flex-wrap">
                         {/* Conditional rendering for even and odd indexes */}
                         {index % 2 === 0 ? (
                             <>

@@ -52,7 +52,7 @@ const ServiceContent = () => {
         <div className='mt-20 max-w-[1200px] mx-auto p-3'>
             <div className="flex flex-col gap-12">
                 {Ddata.map((item, index) => (
-                    <div key={index} className="flex justify-between items-center flex-wrap">
+                    <div key={index} className="flex justify-between items-center gap-3 flex-wrap">
                         {/* Conditional rendering for even and odd indexes */}
                         {index % 2 === 0 ? (
                             <>
