@@ -1,14 +1,14 @@
 import React from 'react'
 import SEOHero from '../components/SEOHero'
-import SEOBanner from '../components/SEOBanner'
-import SEOContent from '../components/SEOContent'
+import ServiceContent from '../components/ServiceContent'
+import Banner from '../components/Banner'
 
-const SEO = () => {
+const SEO = ({data, banner}) => {
   return (
     <div>
       <SEOHero />
-      <SEOBanner />
-      <SEOContent />
+      <Banner banner={banner} />
+      <ServiceContent data={data} />
     </div>
   )
 }

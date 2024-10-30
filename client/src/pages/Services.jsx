@@ -2,15 +2,15 @@ import React from 'react'
 import ServiceHero from '../components/ServiceHero'
 import MainServices from '../components/MainServices'
 import ServiceContent from '../components/ServiceContent'
-import ServiceBanner from '../components/ServiceBanner'
+import Banner from '../components/Banner'
 
-const Services = () => {
+const Services = ({data, banner}) => {
   return (
     <div>
       <ServiceHero />
       <MainServices />
-      <ServiceContent />
-      <ServiceBanner />
+      <ServiceContent data={data} />
+      <Banner banner={banner} />
     </div>
   )
 }

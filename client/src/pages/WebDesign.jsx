@@ -1,14 +1,14 @@
 import React from 'react'
 import WDBanner from '../components/WDBanner'
-import WDContent from '../components/WDContent'
-import WDHeroBanner from '../components/WDHeroBanner'
+import ServiceContent from '../components/ServiceContent'
+import Banner from '../components/Banner'
 
-const WebDesign = () => {
+const WebDesign = ({data, banner}) => {
   return (
     <div>
       <WDBanner />
-      <WDHeroBanner />
-      <WDContent />
+      <Banner banner={banner} />
+      <ServiceContent data={data} />
     </div>
   )
 }

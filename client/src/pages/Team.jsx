@@ -1,14 +1,14 @@
 import React from 'react'
 import TeamHero from '../components/TeamHero'
-import TeamBanner from '../components/TeamBanner'
 import TeamAccBanner from '../components/TeamAccBanner'
 import TeamContent from '../components/TeamContent'
+import Banner from '../components/Banner'
 
-const Team = () => {
+const Team = ({banner}) => {
   return (
     <div>
       <TeamHero />
-      <TeamBanner />
+      <Banner banner={banner} />
       <TeamAccBanner />
       <TeamContent />
     </div>

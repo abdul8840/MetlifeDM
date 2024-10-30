@@ -1,14 +1,14 @@
 import React from 'react'
 import PPCHero from '../components/PPCHero'
-import PPCBanner from '../components/PPCBanner'
-import PPCContent from '../components/PPCContent'
+import ServiceContent from '../components/ServiceContent'
+import Banner from '../components/Banner'
 
-const PPC = () => {
+const PPC = ({data, banner}) => {
   return (
     <div>
       <PPCHero />
-      <PPCBanner />
-      <PPCContent />
+      <Banner banner={banner} />
+      <ServiceContent data={data} />
     </div>
   )
 }

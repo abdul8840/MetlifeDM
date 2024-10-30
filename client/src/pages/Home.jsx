@@ -6,11 +6,11 @@ import Banner from '../components/Banner'
 import Accbanner from '../components/Accbanner'
 import FAQ from '../components/FAQ'
 
-const Home = () => {
+const Home = ({banner}) => {
   return (
     <div>
       <Hero />
-      <Banner />
+      <Banner banner={banner} />
       <hr />
       <HomeContent />
       <Services />
