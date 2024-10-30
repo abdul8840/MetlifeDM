@@ -9,7 +9,7 @@ import path from 'path';
 
 dotenv.config();
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(process.env.MONGO).then(
   () => console.log('Connected to MongoDB'),
