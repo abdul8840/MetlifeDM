@@ -6,10 +6,10 @@ import Banner from '../components/Banner'
 import Accbanner from '../components/Accbanner'
 import FAQ from '../components/FAQ'
 
-const Home = ({banner}) => {
+const Home = ({banner, hero}) => {
   return (
     <div>
-      <Hero />
+      <Hero hero={hero} />
       <Banner banner={banner} />
       <hr />
       <HomeContent />

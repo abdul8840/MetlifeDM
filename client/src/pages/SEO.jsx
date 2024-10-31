@@ -1,12 +1,12 @@
 import React from 'react'
-import SEOHero from '../components/SEOHero'
 import ServiceContent from '../components/ServiceContent'
 import Banner from '../components/Banner'
+import Hero from '../components/Hero'
 
-const SEO = ({data, banner}) => {
+const SEO = ({data, banner, hero}) => {
   return (
     <div>
-      <SEOHero />
+      <Hero hero={hero} />
       <Banner banner={banner} />
       <ServiceContent data={data} />
     </div>

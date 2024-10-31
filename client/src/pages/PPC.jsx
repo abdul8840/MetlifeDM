@@ -1,12 +1,12 @@
 import React from 'react'
-import PPCHero from '../components/PPCHero'
 import ServiceContent from '../components/ServiceContent'
 import Banner from '../components/Banner'
+import Hero from '../components/Hero'
 
-const PPC = ({data, banner}) => {
+const PPC = ({data, banner, hero}) => {
   return (
     <div>
-      <PPCHero />
+      <Hero hero={hero} />
       <Banner banner={banner} />
       <ServiceContent data={data} />
     </div>

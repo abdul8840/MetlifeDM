@@ -62,6 +62,7 @@ const Header = () => {
                   <Link to='/services/pay-per-click-advertising' className="block text-black px-4 py-2 hover:bg-gray-200" onClick={handleLinkClick}>Pay Per Click</Link>
                   <Link to='/services/email-and-sms-marketing' className="block text-black px-4 py-2 hover:bg-gray-200" onClick={handleLinkClick}>Email & SMS Marketing</Link>
                   <Link to='/services/social-media-marketing' className="block text-black px-4 py-2 hover:bg-gray-200" onClick={handleLinkClick}>Social Media Marketing</Link>
+                  <Link to='/services' className="block text-black px-4 py-2 hover:bg-gray-200" onClick={handleLinkClick}>All Services</Link>
                 </div>
               )}
             </div>

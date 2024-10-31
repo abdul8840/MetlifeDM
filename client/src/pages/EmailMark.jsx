@@ -1,12 +1,12 @@
 import React from 'react'
-import EMHero from '../components/EMHero'
 import ServiceContent from '../components/ServiceContent'
 import Banner from '../components/Banner'
+import Hero from '../components/Hero'
 
-const EmailMark = ({data, banner}) => {
+const EmailMark = ({data, banner, hero}) => {
   return (
     <div>
-        <EMHero />
+        <Hero hero={hero} />
         <Banner banner={banner} />
         <ServiceContent data={data} />
     </div>

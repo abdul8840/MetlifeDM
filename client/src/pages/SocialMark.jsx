@@ -1,12 +1,12 @@
 import React from 'react'
-import SMHero from '../components/SMHero'
 import ServiceContent from '../components/ServiceContent'
 import Banner from '../components/Banner'
+import Hero from '../components/Hero'
 
-const SocialMark = ({data, banner}) => {
+const SocialMark = ({data, banner, hero}) => {
   return (
     <div>
-      <SMHero />
+      <Hero hero={hero} />
       <Banner banner={banner} />
       <ServiceContent data={data} />
     </div>
