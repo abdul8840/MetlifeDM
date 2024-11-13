@@ -2,6 +2,7 @@ import React from 'react'
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { MdAddCall } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
 
 const ContactCards = () => {
     const infodata = [
@@ -16,9 +17,9 @@ const ContactCards = () => {
             info: "metlifedm4u@gmail.com",
         },
         {
-            icon: <MdAddCall className='mx-auto text-6xl text-purple-500 mb-2' />,
-            head: "Phone Number",
-            info: "+91 1204443330",
+            icon: <FaHome className='mx-auto text-6xl text-purple-500 mb-2' />,
+            head: "Address",
+            info: "16192 Coastal HwyLewes, DE 19958, USA",
         },
     ]
   return (
