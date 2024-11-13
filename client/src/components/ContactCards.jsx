@@ -28,7 +28,7 @@ const ContactCards = () => {
         <h2 className='text-4xl font-bold mb-10 text-center text-black'>How to reach us?</h2>
         <div className="flex justify-center flex-wrap gap-3">
             {infodata.map((item, index) => (
-            <div key={index} className="bg-white shadow-md rounded-lg p-5 w-[300px] text-center flex flex-col">
+            <div key={index} className="bg-white shadow-md rounded-lg p-5 w-[330px] text-center flex flex-col">
                 {item.icon}
                 <h3 className='text-2xl font-bold mb-3 text-black'>{item.head}</h3>
                 <h4 className='text-black'>{item.info}</h4>
